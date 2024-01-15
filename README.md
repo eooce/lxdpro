@@ -13,7 +13,7 @@
 # 为什么要写这个脚本？
 <br>有天我在LOC的论坛上发现有找人合租VPS的意向,但是对方说只能用docker开车,我就翻了记录很多VPS合租或者端口转发都用docker或者咸蛋面板转发,但是我更需要是一个独立的系统,所以萌生了写这个脚本。
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/MXCCO/lxdpro/main/lxdpro.sh && bash lxdpro.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/eooce/lxdpro/main/lxdpro.sh && chmod +x lxdpro.sh && bash lxdpro.sh
 ```
 <br>再次使用
 ```
