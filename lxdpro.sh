@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 
-Green="\033[32m"
+Green="\e[1;32m"
 yellow="\033[33m"
 Font="\033[0m"
-Red="\033[31m"
+Red="\e[1;31m"
 Cyan='\033[0;36m'
 Pe="\033[0;35m"
 
