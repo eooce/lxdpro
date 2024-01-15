@@ -2305,7 +2305,7 @@ echo -e "          ${Green}6.备份和导入容器${Font}"
 echo -e "          ${Green}7.tg机器人提醒${Font}"
 echo -e "          ${Green}8.tg机器人管理面板${Font}"
 echo -e "          ${Green}9.更新脚本${Font}"
-
+echo -e "          ${Red}0.退出脚本${Font}"
 
 
 while :; do echo
@@ -2343,6 +2343,8 @@ case $choice in
         sleep 3s
         ./lxdpro.sh
     ;;
+    0)  exit 1
+    ;;    
 esac
 }
 
