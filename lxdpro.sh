@@ -2310,7 +2310,7 @@ echo -e "          ${Red}0.退出脚本${Font}"
 
 while :; do echo
 		read -p "请输入数字选择: " choice
-		if [ $choice -ge 1 -a $choice -le 9 ]
+		if [ $choice -ge 0 -a $choice -le 9 ]
             then
 				break
 		else
