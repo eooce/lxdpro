@@ -2338,7 +2338,7 @@ case $choice in
     ;;
     8)  admin_cat8
     ;;
-    9)  wget -N --no-check-certificate https://raw.githubusercontent.com/MXCCO/lxdpro/main/lxdpro.sh
+    9)  wget -N --no-check-certificate https://raw.githubusercontent.com/eooce/lxdpro/main/lxdpro.sh
         chmod +x lxdpro.sh
         echo "更新完成3秒后执行新脚本"
         sleep 3s
