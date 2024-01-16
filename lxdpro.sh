@@ -1840,13 +1840,13 @@ fi
 lxc_corn()
 {
 clear
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
-echo -e "更新时间: 2023.12.26     版本: v0.2.3"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
+echo -e "更新时间: 2024.1.16     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.定时备份指定容器${Font}"
-echo -e "          ${Green}2.定时备份所有容器${Font}"
-echo -e "          ${Green}3.删除所有定时${Font}"
+echo -e "${Green}1.定时备份指定容器${Font}"
+echo -e "${Green}2.定时备份所有容器${Font}"
+echo -e "${Green}3.删除所有定时${Font}"
 
 while :; do echo
 		read -p "请输入数字选择: " choice
@@ -1879,16 +1879,16 @@ command -V lxc >/dev/null 2>&1
 if [ $? -eq 0 ];then
 
 clear 
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
-echo -e "更新时间: 2023.12.26     版本: v0.2.3"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
+echo -e "更新时间: 2024.1.16     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.一键创建容器${Font}"
-echo -e "          ${Green}2.创建物理卷${Font}"
-echo -e "          ${Green}3.创建网卡${Font}"
-echo -e "          ${Green}4.创建配置模板${Font}"
-echo -e "          ${Green}5.创建容器${Font}"
-echo -e "          ${Green}0.返回首页${Font}"
+echo -e "${Green}1.一键创建容器${Font}"
+echo -e "${Green}2.创建物理卷${Font}"
+echo -e "${Green}3.创建网卡${Font}"
+echo -e "${Green}4.创建配置模板${Font}"
+echo -e "${Green}5.创建容器${Font}"
+echo -e "${Green}0.返回首页${Font}"
 
 
 
@@ -1931,16 +1931,16 @@ fi
 admin_cat3()
 {
     clear 
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
-echo -e "更新时间: 2023.12.26     版本: v0.2.3"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
+echo -e "更新时间: 2024.1.16     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.一键删除${Font}"
-echo -e "          ${Green}2.删除网络${Font}"
-echo -e "          ${Green}3.删除磁盘${Font}"
-echo -e "          ${Green}4.删除容器${Font}"
-echo -e "          ${Green}5.删除容器配置模板${Font}"
-echo -e "          ${Green}0.返回首页${Font}"
+echo -e "${Green}1.一键删除${Font}"
+echo -e "${Green}2.删除网络${Font}"
+echo -e "${Green}3.删除磁盘${Font}"
+echo -e "${Green}4.删除容器${Font}"
+echo -e "${Green}5.删除容器配置模板${Font}"
+echo -e "${Green}0.返回首页${Font}"
 while :; do echo
 		read -p "请输入数字选择: " choice 
 		if [[ ! $choice =~ ^[0-5]$ ]]
@@ -1988,22 +1988,22 @@ esac
 admin_cat4()
 {
 clear 
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
 echo -e "更新时间: 2023.12.26     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.启动容器${Font}"
-echo -e "          ${Green}2.停止容器${Font}"
-echo -e "          ${Green}3.重启容器${Font}"
-echo -e "          ${Green}4.进入指定容器${Font}"
-echo -e "          ${Green}5.查看容器信息${Font}"
-echo -e "          ${Green}6.查看容器列表${Font}"
-echo -e "          ${Green}7.查看磁盘列表${Font}"
-echo -e "          ${Green}8.查看网卡列表${Font}"
-echo -e "          ${Green}9.对容器进行限制${Font}"
-echo -e "          ${Green}10.通过进程PID查找容器${Font}"
-echo -e "          ${Green}11.一键开启容器SSH${Font}"
-echo -e "          ${Green}0.返回首页${Font}"
+echo -e "${Green} 1.启动容器${Font}"
+echo -e "${Green} 2.停止容器${Font}"
+echo -e "${Green} 3.重启容器${Font}"
+echo -e "${Green} 4.进入指定容器${Font}"
+echo -e "${Green} 5.查看容器信息${Font}"
+echo -e "${Green} 6.查看容器列表${Font}"
+echo -e "${Green} 7.查看磁盘列表${Font}"
+echo -e "${Green} 8.查看网卡列表${Font}"
+echo -e "${Green} 9.对容器进行限制${Font}"
+echo -e "${Green}10.通过进程PID查找容器${Font}"
+echo -e "${Green}11.一键开启容器SSH${Font}"
+echo -e "${Green} 0.返回首页${Font}"
 
 while :; do echo
 		read -p "请输入数字选择: " choice
@@ -2056,14 +2056,14 @@ esac
 admin_cat5()
 {
 clear 
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
 echo -e "更新时间: 2023.12.26     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.创建端口转发${Font}"
-echo -e "          ${Green}2.删除端口转发${Font}"
-echo -e "          ${Green}3.查看容器端口转发${Font}"
-echo -e "          ${Green}0.返回首页${Font}"
+echo -e "${Green}1.创建端口转发${Font}"
+echo -e "${Green}2.删除端口转发${Font}"
+echo -e "${Green}3.查看容器端口转发${Font}"
+echo -e "${Green}0.返回首页${Font}"
 
 
 
@@ -2100,9 +2100,9 @@ echo -e "————————————————By'MXCCO—————
 echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
 echo -e "更新时间: 2023.12.26     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
-echo -e "          ${Green}1.备份容器${Font}"
-echo -e "          ${Green}2.导入备份${Font}"
-echo -e "          ${Green}3.定时备份容器${Font}"
+echo -e "${Green}1.备份容器${Font}"
+echo -e "${Green}2.导入备份${Font}"
+echo -e "${Green}3.定时备份容器${Font}"
 
 
 while :; do echo
