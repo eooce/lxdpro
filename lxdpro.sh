@@ -2292,9 +2292,9 @@ echo "机器人已部署,请在tg上看是否成功"
 front_page()
 {
 clear
-echo -e "————————————————By'MXCCO———————————————"
-echo -e "脚本地址: https://github.com/MXCCO/lxdpro"
-echo -e "更新时间: 2023.12.26     版本: v0.2.3"
+echo -e "————————————————By'eooce———————————————"
+echo -e "脚本地址: https://github.com/eooce/lxdpro"
+echo -e "更新时间: 2024.1.16     版本: v0.2.3"
 echo -e "———————————————————————————————————————"
 echo -e "          ${Green}1.安装LXD${Font}"
 echo -e "          ${Green}2.创建系统容器${Font}"
